@@ -139,7 +139,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="compg6.2 (40).cpp" />
+    <ClCompile Include="glfx.cpp" />
+    <ClCompile Include="glfxLALRParser.cpp" />
+    <ClCompile Include="glfxScanner.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="null_technique.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="shadow_volume_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="glfx.h" />
+    <ClInclude Include="glfxClasses.h" />
+    <ClInclude Include="glfxLALRParser.hpp" />
+    <ClInclude Include="glfxParser.h" />
+    <ClInclude Include="glfxScanner.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="null_technique.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="shadow_volume_technique.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
