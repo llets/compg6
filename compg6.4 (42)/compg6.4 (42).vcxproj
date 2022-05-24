@@ -19,7 +19,40 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="compg6.4 (42).cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="ogldev_app.cpp" />
+    <ClCompile Include="ogldev_basic_mesh.cpp" />
+    <ClCompile Include="ogldev_glfw_backend.cpp" />
+    <ClCompile Include="ogldev_texture.cpp" />
+    <ClCompile Include="ogldev_util.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="shadow_map_fbo.cpp" />
+    <ClCompile Include="shadow_map_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="ogldev_app.h" />
+    <ClInclude Include="ogldev_basic_mesh.h" />
+    <ClInclude Include="ogldev_callbacks.h" />
+    <ClInclude Include="ogldev_camera.h" />
+    <ClInclude Include="ogldev_engine_common.h" />
+    <ClInclude Include="ogldev_glfw_backend.h" />
+    <ClInclude Include="ogldev_glut_backend.h" />
+    <ClInclude Include="ogldev_keys.h" />
+    <ClInclude Include="ogldev_texture.h" />
+    <ClInclude Include="ogldev_types.h" />
+    <ClInclude Include="ogldev_util.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="shadow_map_fbo.h" />
+    <ClInclude Include="shadow_map_technique.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="technique.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
