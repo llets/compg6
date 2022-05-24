@@ -18,6 +18,45 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="engine_common.h" />
+    <ClInclude Include="glfx.h" />
+    <ClInclude Include="glfxClasses.h" />
+    <ClInclude Include="glfxLALRParser.hpp" />
+    <ClInclude Include="glfxParser.h" />
+    <ClInclude Include="glfxScanner.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="shadow_map_fbo.h" />
+    <ClInclude Include="shadow_map_technique.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="compg6.5 (43).cpp" />
+    <ClCompile Include="glfx.cpp" />
+    <ClCompile Include="glfxLALRParser.cpp" />
+    <ClCompile Include="glfxScanner.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="shadow_map_fbo.cpp" />
+    <ClCompile Include="shadow_map_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +177,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="compg6.5 (43).cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
