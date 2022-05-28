@@ -19,7 +19,47 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="compg6.3 (41).cpp" />
+    <ClCompile Include="glfx.cpp" />
+    <ClCompile Include="glfxLALRParser.cpp" />
+    <ClCompile Include="glfxScanner.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="intermediate_buffer.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="motion_blur_technique.cpp" />
+    <ClCompile Include="ogldev_app.cpp" />
+    <ClCompile Include="ogldev_skinned_mesh.cpp" />
+    <ClCompile Include="ogldev_texture.cpp" />
+    <ClCompile Include="ogldev_util.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="skinning_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfx.h" />
+    <ClInclude Include="glfxClasses.h" />
+    <ClInclude Include="glfxLALRParser.hpp" />
+    <ClInclude Include="glfxParser.h" />
+    <ClInclude Include="glfxScanner.h" />
+    <ClInclude Include="intermediate_buffer.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="motion_blur_technique.h" />
+    <ClInclude Include="ogldev_app.h" />
+    <ClInclude Include="ogldev_callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="ogldev_engine_common.h" />
+    <ClInclude Include="ogldev_glut_backend.h" />
+    <ClInclude Include="ogldev_keys.h" />
+    <ClInclude Include="ogldev_math_3d.h" />
+    <ClInclude Include="ogldev_pipeline.h" />
+    <ClInclude Include="ogldev_skinned_mesh.h" />
+    <ClInclude Include="ogldev_texture.h" />
+    <ClInclude Include="ogldev_types.h" />
+    <ClInclude Include="ogldev_util.h" />
+    <ClInclude Include="skinning_technique.h" />
+    <ClInclude Include="technique.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

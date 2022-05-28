@@ -1,10 +1,9 @@
 ﻿#include "mainhandler.h"
-#include "glut_backend.h"
+#include "ogldev_glut_backend.h"
 #include <Magick++.h>
 
 int main(int argc, char** argv)
 {
-    srand(time(0));
     Magick::InitializeMagick(*argv);
     GLUTBackendInit(argc, argv, true, false);
 
